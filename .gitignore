@@ -1,0 +1,12 @@
+# Project exclude paths
+/zzj-data-common/target/
+/zzj-data-connection/zzj-plugin-core/target/
+/zzj-data-connection/zzj-plugin-mysql/target/
+/zzj-data-connection/zzj-plugin-oracle/target/
+/zzj-data-connection/zzj-plugin-gb/target/
+/zzj-data-connection/zzj-plugin-sqlserver/target/
+/zzj-data-opp/data-opp-common/target/
+/zzj-data-opp/data-opp-core/target/
+/zzj-data-opp/data-opp-api/target/
+.idea
+*.iml

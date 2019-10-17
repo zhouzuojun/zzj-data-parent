@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+	<start-mapping>
+		<mapping>
+			<type>101</type>
+			<code>Oracle12c</code>
+			<datasourceImplClass>com.zzj.data.connection.Oracle12cDatasourceImpl</datasourceImplClass>
+			<queryDbTimeSql>SELECT sysdate FROM DUAL</queryDbTimeSql>
+			<driverClass>oracle.jdbc.driver.OracleDriver</driverClass>
+		</mapping>
+
+		<mapping>
+			<type>102</type>
+			<code>MySQL</code>
+			<datasourceImplClass>com.zzj.data.connection.MySQLDataSourceImpl</datasourceImplClass>
+			<queryDbTimeSql>SELECT SYSDATE() AS SYSDATE</queryDbTimeSql>
+			<driverClass>com.mysql.jdbc.Driver</driverClass>
+		</mapping>
+
+	</start-mapping>
+</Mapping>

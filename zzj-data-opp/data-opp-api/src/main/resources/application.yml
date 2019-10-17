@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /zzj-data
+  port: 3131
+db:
+  url: jdbc:mysql://localhost:3306/zzj_data?characterEncoding=UTF-8
+  username: root
+  password: admin
+  driver: com.mysql.jdbc.Driver
+  maxActive: 30
+  minIdle: 20
+  initSize: 10
+  testSql: select 'X'
+mybatis:
+  mapperLocations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.zzj.data.*.*.entity
+logging:
+  config: classpath:logback.xml
+template:
+  export:
+    column: excel/export_column_template.xlsx
